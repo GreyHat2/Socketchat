@@ -6,7 +6,7 @@ nickname = input("Choose your nickname: ")
 
 # Connecting To Server
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('syskey-48195.portmap.io', 60857))
+client.connect(('4.tcp.ngrok.io', 16765))
 
 # Listening to Server and Sending Nickname
 def receive():

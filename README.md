@@ -1,2 +1,2 @@
 # Socketchat
-Socket
+Socket chat app console
